@@ -1,0 +1,220 @@
+header {
+   font-size: 1em;   /*feel free to change */
+} 
+
+.index-container{
+  padding-bottom: 2%;
+}
+
+.index-columns {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+}
+
+.col_img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 320px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #F9F9F9;
+}
+
+.download-banner {
+  background-color: #30C631;
+}
+
+/*START NAVBAR CSS*/
+/* navbar */
+.navbar {
+  margin-bottom: 0px;
+  color: #357AC6;
+}
+.navbar-right {
+  margin-right: 5px;
+}
+.navbar-default {
+    background: #F9F9F9;
+    border-color: #F9F9F9;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #357AC6; /*Color of title */
+    line-height: 50px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #4091EB; /*Nothing*/
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #357AC6; /*Text of Link */
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #4091EB; /*Highlighted link text color*/
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #357AC6; /*Actuve page text color*/
+    background: #F9F9F9; /*Background of active*/
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #357AC6;
+    background-color: #F9F9F9;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #357AC6;
+    border-bottom-color: #357AC6;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #4091EB;
+    border-bottom-color: #4091EB;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+}
+
+.dropdown-menu {
+   padding: 10px;
+}
+/* End nav bar*/
+ /*  start Car*/
+.slide1, .slide2, .slide3 {
+	min-height: 560px; /* Must have a height or min-height set due to use of background images */
+	background-size: cover;
+	background-position: center center;
+}
+.slide1 {
+	background-image: url(../media/images/slide1.png);
+}
+.slide2 {
+	background-image: url(../media/images/slide1.png);
+}
+.slide3 {
+	background-image: url(../media/images/slide1.png);
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+	-webkit-transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+	-ms-transition: opacity 1s linear;
+	-o-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+	opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	filter: none;
+}
+/* Carousel Overlay */
+.carousel-overlay {
+	position: absolute;
+	bottom: 280px;
+	right: 0;
+	left: 0;
+}
+
+.slide-text {
+  color:#357AC6;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #F9F9F9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #F9F9F9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #357AC6;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #357AC6;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #4091EB;
+    }
+}
+
+#linklist {
+  list-style-type: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000080;
+}
+
+#linklist a:visited {
+  color: #000080;
+}
+
+#linklist a:hover {
+  text-decoration: none;
+  color: #009100;
+}
+
+body{
+    font-size: 1.7em;
+	line-height: 135%;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #F9F9F9;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.2em;
+  text-align: center;
+  color: #357AC6;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 2.8em;
+  color: #357AC6;
+}
+
+h3 {
+   font-weight: 600;
+}
+
+.video {
+  padding: 5%;
+}
+
+.howitworks{
+  padding: 5%;
+  font-size: 1.3em;
+  
+}
+
+.footer {
+   background-color: #357AC6;
+   height: 200px;
+}
+
+/*testing 123 testing*/
+
